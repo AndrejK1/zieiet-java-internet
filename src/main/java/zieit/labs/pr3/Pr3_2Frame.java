@@ -170,21 +170,18 @@ public class Pr3_2Frame extends JFrame {
             @Override
             public void mousePressed(MouseEvent e) {
                 super.mouseClicked(e);
-                System.out.println("clicked in " + e.getX() + " " + e.getY());
                 handleClick(e);
             }
 
             @Override
             public void mouseDragged(MouseEvent e) {
                 super.mouseDragged(e);
-                System.out.println("Dr to " + e.getX() + " " + e.getY());
                 handleDrag(e);
             }
 
             @Override
             public void mouseReleased(MouseEvent e) {
                 super.mouseReleased(e);
-                System.out.println("RE to " + e.getX() + " " + e.getY());
                 handleRelease(e);
             }
         };
